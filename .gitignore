@@ -1,0 +1,14 @@
+# Files the Claude desktop app drops into the working folder when delivering
+# outputs to the chat. The canonical copies live at the repository root.
+Claude outputs/
+
+# Build noise
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local browser-preview artifacts
+.playwright-mcp/
+
+# Full master CV (phone number, trainees) and earlier versions; never published
+private/

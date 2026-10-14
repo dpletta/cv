@@ -1,0 +1,609 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>David R. Pletta, PhD, MPH — Curriculum Vitae</title>
+<meta name="description" content="Curriculum vitae of David R. Pletta, PhD, MPH — quantitative epidemiologist, Department of Epidemiology, University of Michigan School of Public Health.">
+<meta name="author" content="David R. Pletta">
+<link rel="canonical" href="https://dpletta.github.io/cv/">
+<meta property="og:title" content="David R. Pletta, PhD, MPH — Curriculum Vitae">
+<meta property="og:description" content="Quantitative epidemiologist, University of Michigan School of Public Health.">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="https://dpletta.github.io/cv/">
+<meta property="og:image" content="https://dpletta.github.io/cv/assets/headshot.jpg">
+<meta property="og:image:alt" content="Headshot of David R. Pletta">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:,">
+<style>
+:root{color-scheme:light;
+  --bg:#fbfaf8; --panel:#ffffff; --ink:#15161a; --muted:#5d6069;
+  --faint:#8a8d96; --rule:#dedbd4; --accent:#5a2d2d; --accent-soft:#f2ece6;
+  --shadow:0 1px 2px rgba(20,20,25,.05), 0 8px 28px rgba(20,20,25,.05);
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,"Times New Roman",serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){color-scheme:dark;
+    --bg:#111214; --panel:#17181b; --ink:#e9e7e3; --muted:#a4a7b0;
+    --faint:#7e828c; --rule:#2c2e33; --accent:#d9a3a3; --accent-soft:#232022;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 28px rgba(0,0,0,.35);
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:var(--serif);font-size:16px;line-height:1.5;
+  -webkit-text-size-adjust:100%;}
+a{color:var(--accent);text-underline-offset:2px}
+a:hover{text-decoration:none}
+
+.masthead{background:var(--panel);border-bottom:1px solid var(--rule)}
+.wrap{max-width:54rem;margin:0 auto;padding:0 1.5rem}
+.masthead .wrap{padding-top:2.6rem;padding-bottom:2rem;display:grid;
+  grid-template-columns:auto 1fr;gap:2rem;align-items:center}
+.portrait{display:block;width:152px;height:152px;border-radius:50%;
+  object-fit:cover;padding:4px;background:var(--bg);
+  border:1px solid var(--rule);box-shadow:var(--shadow)}
+h1{font-size:1.72rem;line-height:1.2;letter-spacing:.05em;
+   margin:0 0 .55rem;font-weight:600}
+.contact{font-size:.86rem;color:var(--muted);margin:.12rem 0;
+  font-family:var(--sans);letter-spacing:.005em}
+.contact a{color:inherit}
+.updated{font-size:.76rem;color:var(--faint);font-family:var(--sans);
+  margin:.75rem 0 0;letter-spacing:.03em;text-transform:uppercase}
+.downloads{margin-top:1.05rem;display:flex;gap:.55rem;flex-wrap:wrap}
+.downloads a{display:inline-block;font-family:var(--sans);font-size:.79rem;
+  letter-spacing:.05em;text-transform:uppercase;text-decoration:none;
+  padding:.5rem .95rem;border:1px solid var(--rule);border-radius:2px;
+  color:var(--muted);background:var(--bg);transition:.15s}
+.downloads a:hover{border-color:var(--accent);color:var(--accent);
+  background:var(--accent-soft)}
+
+nav.toc{position:sticky;top:0;z-index:10;background:var(--panel);
+  border-bottom:1px solid var(--rule)}
+nav.toc .wrap{max-width:72rem;display:flex;gap:.1rem;flex-wrap:wrap;justify-content:center;
+  padding-top:.4rem;padding-bottom:.4rem}
+@media (max-width:640px){nav.toc .wrap{flex-wrap:nowrap;overflow-x:auto;
+  justify-content:flex-start;scrollbar-width:thin}}
+nav.toc a{font-family:var(--sans);font-size:.735rem;letter-spacing:.035em;
+  white-space:nowrap;text-decoration:none;color:var(--muted);
+  padding:.32rem .5rem;border-radius:3px}
+nav.toc a:hover{color:var(--accent);background:var(--accent-soft)}
+
+main{padding:1.6rem 0 4rem}
+section{margin-bottom:.6rem;scroll-margin-top:5.6rem}
+h2{font-size:.94rem;letter-spacing:.13em;text-transform:uppercase;font-weight:700;
+   margin:2.1rem 0 .1rem;padding-bottom:.34rem;border-bottom:1.5px solid var(--ink)}
+h3{font-size:.9rem;font-style:italic;font-weight:600;color:var(--ink);
+   margin:1.15rem 0 .35rem}
+
+.entry{margin:.62rem 0}
+.row{display:flex;justify-content:space-between;align-items:baseline;gap:1.2rem}
+.org{font-weight:600}
+.role{}
+.date{font-family:var(--sans);font-size:.79rem;color:var(--muted);
+  white-space:nowrap;flex-shrink:0;letter-spacing:.02em}
+.sub{font-size:.87rem;color:var(--muted);margin-left:1rem}
+
+.grant{margin:1.1rem 0}
+.grant-title{margin-bottom:.5rem}
+dl.fields{display:grid;grid-template-columns:max-content 1fr;
+  gap:.3rem .95rem;margin:0;padding:.7rem .9rem;border-left:2px solid var(--rule);
+  background:var(--panel);border-radius:0 3px 3px 0}
+dl.fields dt{font-family:var(--sans);font-size:.7rem;letter-spacing:.07em;
+  text-transform:uppercase;color:var(--faint);padding-top:.18rem}
+dl.fields dd{margin:0;font-size:.93rem}
+
+ol.refs{list-style:decimal;padding-left:2.1rem;margin:.3rem 0}
+ol.refs>li{margin:.44rem 0;padding-left:.25rem;font-size:.93rem;line-height:1.46}
+ol.refs>li::marker{font-family:var(--sans);font-size:.78rem;color:var(--faint)}
+.ids{font-family:var(--sans);font-size:.74rem;color:var(--faint);
+  display:inline-block;margin-top:.1rem}
+.ids a{color:var(--faint);text-decoration:underline;text-decoration-color:var(--rule)}
+.ids a:hover{color:var(--accent)}
+
+ul.journals{columns:2;column-gap:2rem;list-style:none;padding-left:0;
+  margin:.3rem 0;font-size:.9rem}
+ul.journals>li{margin:.16rem 0;break-inside:avoid}
+
+footer{border-top:1px solid var(--rule);margin-top:2.5rem;padding-top:1.1rem;
+  font-family:var(--sans);font-size:.75rem;color:var(--faint);text-align:center}
+
+@media (max-width:640px){
+  body{font-size:15px}
+  .wrap{padding:0 1rem}
+  .masthead .wrap{grid-template-columns:1fr;justify-items:center;
+    text-align:center;gap:1.1rem;padding-top:2rem;padding-bottom:1.6rem}
+  .portrait{width:120px;height:120px}
+  .downloads{justify-content:center}
+  h1{font-size:1.4rem}
+  .row{flex-direction:column;gap:.05rem}
+  .date{font-size:.75rem}
+  dl.fields{grid-template-columns:1fr;gap:.05rem .5rem;padding:.6rem .7rem}
+  dl.fields dd{margin-bottom:.4rem}
+  ul.journals{columns:1}
+  ol.refs{padding-left:1.5rem}
+  section{scroll-margin-top:3.2rem}
+}
+
+@media print{
+  :root{--bg:#fff;--panel:#fff;--ink:#000;--muted:#333;--faint:#555;
+        --rule:#bbb;--accent:#000;--accent-soft:#fff}
+  nav.toc,.downloads,.portrait{display:none!important}
+  body{font-size:10.5pt;background:#fff}
+  .wrap{max-width:none;padding:0}
+  .masthead{border-bottom:none}
+  .masthead .wrap{display:block;padding-top:0;text-align:center}
+  h1{font-size:16pt}
+  h2{font-size:11pt;margin-top:14pt;break-after:avoid}
+  h3{font-size:10.5pt;break-after:avoid}
+  dl.fields{background:#fff}
+  a{color:#000;text-decoration:none}
+  .entry,.grant,ol.refs>li{break-inside:avoid}
+  @page{margin:.75in}
+}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <img class="portrait" src="assets/headshot.jpg" width="152" height="152" alt="Headshot of David R. Pletta">
+    <div class="ident">
+      <h1>DAVID R. PLETTA, PhD, MPH</h1>
+      <p class="contact">Department of Epidemiology, University of Michigan School of Public Health, Ann Arbor, MI</p>
+      <p class="contact"><a href="mailto:dpletta@umich.edu">dpletta@umich.edu</a></p>
+      <p class="contact">ORCID: <a href="https://orcid.org/0000-0003-0363-153X">https://orcid.org/0000-0003-0363-153X</a></p>
+      <div class="downloads">
+        <a href="CV_DPletta_10-14-2026.pdf" download>Download PDF</a>
+        <a href="CV_DPletta_10-14-2026.docx" download>Download DOCX</a>
+        <a href="#" onclick="window.print();return false;">Print</a>
+      </div>
+      <p class="updated">Last updated October 14, 2026</p>
+    </div>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Sections"><div class="wrap">
+<a href="#education">Education</a>
+<a href="#positions">Positions</a>
+<a href="#grants">Grants</a>
+<a href="#fellowships">Fellowships</a>
+<a href="#honors">Honors</a>
+<a href="#publications">Publications</a>
+<a href="#presentations">Presentations</a>
+<a href="#teaching">Teaching</a>
+<a href="#service">Service</a>
+<a href="#editorial">Editorial</a>
+<a href="#societies">Societies</a>
+<a href="#trainings">Trainings</a>
+</div></nav>
+
+<main><div class="wrap">
+<section id="education"><h2>Education</h2>
+<div class="entry">
+<div class="row"><span class="org">Harvard University</span><span class="date">Cambridge, MA</span></div>
+<div class="row"><span class="role">PhD, Population Health Sciences</span><span class="date">2020-2023</span></div>
+<div class="sub">Harvard Kenneth C. Griffin Graduate School of Arts and Sciences</div>
+<div class="sub">Department of Social and Behavioral Sciences</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">Boston University</span><span class="date">Boston, MA</span></div>
+<div class="row"><span class="role">MPH, Epidemiology and Biostatistics</span><span class="date">2017-2019</span></div>
+<div class="sub">Boston University School of Public Health</div>
+<div class="sub">Departments of Epidemiology &amp; Biostatistics</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">University of California, Santa Cruz</span><span class="date">Santa Cruz, CA</span></div>
+<div class="row"><span class="role">BS, Cognitive Science, cum laude</span><span class="date">2011-2014</span></div>
+<div class="row"><span class="role">BA, Psychology, cum laude</span><span class="date">2011-2014</span></div>
+<div class="sub">Department of Psychology</div>
+</div>
+</section>
+<section id="positions"><h2>Academic Positions</h2>
+<div class="entry">
+<div class="row"><span class="org">University of Michigan</span><span class="date">Ann Arbor, MI</span></div>
+<div class="row"><span class="role">Research Area Specialist Lead</span><span class="date">2024-Present</span></div>
+<div class="sub">Department of Epidemiology</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">University of Michigan</span><span class="date">Ann Arbor, MI</span></div>
+<div class="row"><span class="role">Research Associate</span><span class="date">2024</span></div>
+<div class="sub">Department of Epidemiology</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">Brown University School of Public Health</span><span class="date">Providence, RI</span></div>
+<div class="row"><span class="role">Data Scientist</span><span class="date">2023-2024</span></div>
+<div class="sub">Department of Behavioral and Social Sciences</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">Brigham and Women’s Hospital</span><span class="date">Boston, MA</span></div>
+<div class="row"><span class="role">Epidemiology Analyst</span><span class="date">2021-2023</span></div>
+<div class="sub">Division of Endocrinology, Diabetes, and Hypertension</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">The Fenway Institute at Fenway Health</span><span class="date">Boston, MA</span></div>
+<div class="row"><span class="role">Epidemiology Analyst</span><span class="date">2019-2021</span></div>
+<div class="sub">Department of Epidemiology</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">Boston Children’s Hospital</span><span class="date">Boston, MA</span></div>
+<div class="row"><span class="role">Clinical Research Specialist</span><span class="date">2018-2019</span></div>
+<div class="sub">Division of General Pediatrics &amp; Division of Adolescent/Young Adult Medicine</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">The Fenway Institute at Fenway Health</span><span class="date">Boston, MA</span></div>
+<div class="row"><span class="role">Epidemiology Graduate Intern</span><span class="date">2018</span></div>
+<div class="sub">Department of Epidemiology</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">Boston Children’s Hospital</span><span class="date">Boston, MA</span></div>
+<div class="row"><span class="role">Qualitative Research Assistant</span><span class="date">2017-2019</span></div>
+<div class="sub">Division of Adolescent/Young Adult Medicine</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">University of California, Santa Cruz</span><span class="date">Santa Cruz, CA</span></div>
+<div class="row"><span class="role">Research Coordinator</span><span class="date">2014-2016</span></div>
+<div class="sub">Department of Psychology</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">University of Southern California</span><span class="date">Los Angeles, CA</span></div>
+<div class="row"><span class="role">Visiting Research Assistant in Neuroscience</span><span class="date">2014</span></div>
+<div class="sub">Leonard Davis School of Gerontology</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">University of California, Santa Cruz</span><span class="date">Santa Cruz, CA</span></div>
+<div class="row"><span class="role">Senior Research Assistant</span><span class="date">2014</span></div>
+<div class="sub">Department of Psychology</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">University of California, Santa Cruz</span><span class="date">Santa Cruz, CA</span></div>
+<div class="row"><span class="role">Research Assistant</span><span class="date">2013-2014</span></div>
+<div class="sub">Department of Psychology</div>
+</div>
+</section>
+<section id="grants"><h2>Extramural Research Support</h2>
+<h3>Awarded</h3>
+<div class="grant">
+<div class="row grant-title"><span class="org">National Longitudinal Study of Violence and Substance Use in the United States</span><span class="date">2027-2031</span></div>
+<dl class="fields">
+<dt>Role</dt><dd>Co-Investigator (Multiple Principal Investigators: Sari Reisner, Kristi Gamarel)</dd>
+<dt>Funder</dt><dd>National Institute on Drug Abuse (NIDA), National Institutes of Health (NIH)</dd>
+<dt>Mechanism</dt><dd>Research Project Grant (R01)</dd>
+<dt>Award No.</dt><dd>R01 DA066104</dd>
+<dt>Total Costs</dt><dd>$3,899,971</dd>
+<dt>Aims</dt><dd>Estimate the prevalence of, and explore the prospective associations between, gender-based violence, social safety threats, protective factors, and behavioral health outcomes in a national cohort of adults, using a community-centered digital cohort model to inform public health interventions.</dd>
+</dl></div>
+<div class="grant">
+<div class="row grant-title"><span class="org">Diagnosis-Agnostic Sequence Mining to Detect Bipolar-Pattern Suicide Risk and Structural Inequities in Adolescents and Young Adults</span><span class="date">2026-2028</span></div>
+<dl class="fields">
+<dt>Role</dt><dd>Principal Investigator</dd>
+<dt>Funder</dt><dd>National Institute on Minority Health and Health Disparities (NIMHD), National Institutes of Health (NIH)</dd>
+<dt>Mechanism</dt><dd>Loan Repayment Program (L70), Facilitating Opportunities in Cutting-edge Science (FOCUS)</dd>
+<dt>Award No.</dt><dd>1L70MD021651-01</dd>
+<dt>Total Costs</dt><dd>$31,013</dd>
+<dt>Aims</dt><dd>Develop a machine learning algorithm using a national electronic health records database to identify sequences of healthcare utilization, prescription medications, and diagnostic codes that are probabilistically indicative of prodromal bipolar disorder in adolescents and young adults. These sequences will be taxonomized in collaboration with community members and psychiatrists, and a case-control study will estimate each sequence’s relative risk for future suicide attempt and death by suicide.</dd>
+</dl></div>
+<h3>Under Review</h3>
+<div class="grant">
+<div class="row grant-title"><span class="org">Quantifying Multi-Agent Re-identification Risk in Open and Public Datasets</span><span class="date">2027-2029</span></div>
+<dl class="fields">
+<dt>Role</dt><dd>Multiple Principal Investigator (with Stephen Hutt and Sari Reisner)</dd>
+<dt>Funder</dt><dd>Schmidt Sciences, in collaboration with Google DeepMind, the Cooperative AI Foundation, the Advanced Research and Invention Agency (ARIA), and Google.org</dd>
+<dt>Program</dt><dd>Scaling AI Safety for a Multi-Agent World</dd>
+<dt>Total Costs</dt><dd>$300,000</dd>
+<dt>Aims</dt><dd>Assess whether cooperative teams of artificial intelligence (AI) agents can re-identify research participants in open and public datasets. Using rarity metadata from existing public health and education datasets, we will generate a synthetic population, then select a target individual and random samples of varying size. Iterative simulation trials across multi-agent structures will quantify the accuracy, precision, and recall of agents’ performance in correctly re-identifying the target or excluding it from the sample. Findings will inform privacy-protective tools for research with human subjects (e.g., a sandbox that strips high-risk identifiers from repository-bound datasets), supporting open science as AI capabilities continue to advance.</dd>
+</dl></div>
+<h3>In Preparation</h3>
+<div class="grant">
+<div class="row grant-title"><span class="org">Pre-Diagnostic Electronic Health Record Trajectories and Suicide Risk in Adolescents and Young Adults with Emerging Bipolar Disorder</span></div>
+<dl class="fields">
+<dt>Role</dt><dd>Multiple Principal Investigator (with Sari Reisner)</dd>
+<dt>Funder</dt><dd>National Institute of Mental Health (NIMH), National Institutes of Health (NIH)</dd>
+<dt>Mechanism</dt><dd>Research Project Grant (R01)</dd>
+<dt>Aims</dt><dd>Identify pre-diagnostic electronic health record (EHR) event sequences preceding bipolar disorder, organize these sequences into a clinically interpretable taxonomy informed by patients and clinicians, and quantify sequence-specific risks of suicide attempt and death by suicide among adolescents and young adults, using national EHR data with external validation in a health system cohort.</dd>
+</dl></div>
+</section>
+<section id="fellowships"><h2>Scholarships &amp; Fellowships</h2>
+<div class="entry">
+<div class="row"><span class="org">University of Michigan</span><span class="date">Ann Arbor, MI</span></div>
+<div class="row"><span class="role">Fellow</span><span class="date">2026-Present</span></div>
+<div class="sub">Data and AI Intensive Research with Rigor and Reproducibility (DAIR3) Program</div>
+<div class="sub">Michigan Institute for Data &amp; AI in Society; program supported by the National Institutes of Health (NIH)</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">Harvard University</span><span class="date">Cambridge, MA</span></div>
+<div class="row"><span class="role">Graduate Prize Fellow</span><span class="date">2020-2023</span></div>
+<div class="sub">Five-year full tuition scholarship and stipend for doctoral training</div>
+<div class="sub">Harvard Kenneth C. Griffin Graduate School of Arts and Sciences</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">Boston University</span><span class="date">Boston, MA</span></div>
+<div class="row"><span class="role">Advancing Public Health Excellence Award</span><span class="date">2017-2019</span></div>
+<div class="sub">Partial tuition scholarship for MPH training</div>
+<div class="sub">Boston University School of Public Health</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">San Francisco State University</span><span class="date">San Francisco, CA</span></div>
+<div class="row"><span class="role">Summer Institute Tuition Scholarship</span><span class="date">2015</span></div>
+<div class="sub">Center for Research and Education on Gender and Sexuality (CREGS)</div>
+</div>
+</section>
+<section id="honors"><h2>Honors &amp; Recognition</h2>
+<div class="entry">
+<div class="row"><span class="org">Richard Green Founding Editor Essay Award</span><span class="date">2021</span></div>
+<div class="sub">Best peer-reviewed publication on gender or sexual behavior, for “Gay men’s health and identity: Social change and the life course”</div>
+<div class="row"><span class="sub">The International Academy of Sex Research</span><span class="date">Bloomington, IN</span></div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">Outstanding Researcher Award</span><span class="date">2015</span></div>
+<div class="row"><span class="sub">Department of Psychology, University of California, Santa Cruz</span><span class="date">Santa Cruz, CA</span></div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">University Honors (cum laude), BS in Cognitive Science &amp; BA in Psychology</span><span class="date">2014</span></div>
+<div class="row"><span class="sub">Department of Psychology, University of California, Santa Cruz</span><span class="date">Santa Cruz, CA</span></div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">Departmental Honors, BS in Cognitive Science &amp; BA in Psychology</span><span class="date">2014</span></div>
+<div class="row"><span class="sub">Department of Psychology, University of California, Santa Cruz</span><span class="date">Santa Cruz, CA</span></div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">College Leadership Distinction</span><span class="date">2014</span></div>
+<div class="row"><span class="sub">College Ten, University of California, Santa Cruz</span><span class="date">Santa Cruz, CA</span></div>
+</div>
+</section>
+<section id="publications"><h2>Publications</h2>
+<h3>Peer-Reviewed Journal Articles — Published</h3>
+<ol class="refs">
+<li>Dusic E, Madden D, Rios IE, Restar A, Milan T, Patterson J, <strong>Pletta DR</strong>, Rabinowitz S, Ramos MA, Aguayo-Romero R, Baker K, Horowitz CR, Reisner SL. “Will it be enough to be respected?”: Understanding personal, institutional, and societal harms and benefits of transgender identity genomics research. <em>Journal of Community Genetics</em>. In press. </li>
+<li>Dusic E, Madden D, Rios IE, Hwang B, Rabinowitz S, Ramos M, <strong>Pletta DR</strong>, Aguayo-Romero R, Lunn M, Baker K, Horowitz C, Reisner SL. Perceptions of and willingness to participate in genomics research among a US sample. <em>Frontiers in Genetics</em>. <span class="ids"><a href="https://doi.org/10.3389/fgene.2026.1808576">doi:10.3389/fgene.2026.1808576</a>.</span></li>
+<li><strong>Pletta DR</strong>, Quint M, Keuroghlian AS, Radix AE, Deutsch MB, Mayer KH, Potter J, Pardee DJ, Campbell J, Hughto JMW, Reisner SL. Situated vulnerabilities and resiliencies associated with lifetime and past 6-month suicide attempt among transgender and gender diverse primary care patients. <em>Psychiatry Research</em>. 2026;364:117350. <span class="ids"><a href="https://doi.org/10.1016/j.psychres.2026.117350">doi:10.1016/j.psychres.2026.117350</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42541935/">42541935</a>.</span></li>
+<li><strong>Pletta DR</strong>, Reisner SL, Feng C, Morrow C, Clark MC, Omar B, Keuroghlian AS, Xu R. Diagnostic delays and suicidal thoughts and behaviors among young adults with a history of mood disorders. <em>Frontiers in Psychiatry</em>. 2026;17:1894148. <span class="ids"><a href="https://doi.org/10.3389/fpsyt.2026.1894148">doi:10.3389/fpsyt.2026.1894148</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42558474/">42558474</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13437458/">PMC13437458</a>.</span></li>
+<li>Silcox J, <strong>Pletta DR</strong>, Hughto JMW, Rapisarda S, Zaragoza S, Kelly PJA, Vento S, Rich J, Green T. Contrasting perspectives and applications of the Good Samaritan Overdose Prevention Law: Insights from people who use and distribute drugs in Rhode Island. <em>Health &amp; Justice</em>. 2026;14(1):35. <span class="ids"><a href="https://doi.org/10.1186/s40352-026-00433-0">doi:10.1186/s40352-026-00433-0</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42343044/">42343044</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13445650/">PMC13445650</a>.</span></li>
+<li>Xu R, <strong>Pletta DR</strong>, Feng C, Morrow C, Clark MC, Omar B, Keuroghlian AS, Reisner SL. Delays in diagnosis and treatment of depressive disorder among young adults: A national online survey-based cross-sectional study. <em>PLoS ONE</em>. 2026;21(6):e0351402. <span class="ids"><a href="https://doi.org/10.1371/journal.pone.0351402">doi:10.1371/journal.pone.0351402</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42284287/">42284287</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13262879/">PMC13262879</a>.</span></li>
+<li><strong>Pletta DR</strong>, Chen JT, Reisner SL, Hughto JMW, Austin SB. Gender minority stress is associated with past-year suicidal ideation in a national probability sample of transgender and gender diverse adults. <em>Psychology of Sexual Orientation and Gender Diversity</em>. 2026;13(3):613-622. <span class="ids"><a href="https://doi.org/10.1037/sgd0000760">doi:10.1037/sgd0000760</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/40895806/">40895806</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12396565/">PMC12396565</a>.</span></li>
+<li>Hughto JMW, Vento S, <strong>Pletta DR</strong>, Noh M, Shireman TI, Santostefano CM, Hughes L, Peterson L, Seymour E, Stettenbauer EG, Dow PM. Medicaid prescription cap policies and exemptions for medications for opioid use disorder: A process and content analysis. <em>Health Affairs Scholar</em>. 2025;3(11):qxaf203. <span class="ids"><a href="https://doi.org/10.1093/haschl/qxaf203">doi:10.1093/haschl/qxaf203</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/41245506/">41245506</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12612678/">PMC12612678</a>.</span></li>
+<li>Reisner SL, Scheim A, Cole SW, Wirtz AL, Poteat T, Mimiaga MJ, Marzinke M, Meyer AI, Smith K, <strong>Pletta DR</strong>, Mayer KH. Transgender men and transmasculine one-on-one and group-delivered empowerment for targeted HIV reduction (TOGETHR) study: Protocol for a digital factorial randomized controlled trial. <em>JMIR Research Protocols</em>. 2025;14:e76831. <span class="ids"><a href="https://doi.org/10.2196/76831">doi:10.2196/76831</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/41115262/">41115262</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12583947/">PMC12583947</a>.</span></li>
+<li><strong>Pletta DR</strong>, Quint M, Radix A, Mayer KH, Potter J, Coon D, Keuroghlian AS, Hughto JMW, Reisner SL. Gender-affirming surgical history, satisfaction, and unmet needs among transgender adults. <em>JAMA Network Open</em>. 2025;8(9):e2532494. <span class="ids"><a href="https://doi.org/10.1001/jamanetworkopen.2025.32494">doi:10.1001/jamanetworkopen.2025.32494</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/40965883/">40965883</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12447237/">PMC12447237</a>.</span></li>
+<li>Balkan E, Babbs G, Meyers DJ, Kelly PJA, Yee K, <strong>Pletta DR</strong>, Shireman TI, Alpert AB, Baker KE, Hughto JMW. Gender-affirming surgery for transgender and gender diverse Medicare beneficiaries. <em>JAMA Network Open</em>. 2025;8(5):e258072. <span class="ids"><a href="https://doi.org/10.1001/jamanetworkopen.2025.8072">doi:10.1001/jamanetworkopen.2025.8072</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/40310645/">40310645</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12046427/">PMC12046427</a>.</span></li>
+<li>Reisner SL, <strong>Pletta DR</strong>, Mayer KH, Deutsch MB, Poteat T, Potter J, Wirtz AL, Harris A, Campbell J, Keuroghlian AS, Hughto JMW, Gonzalez A, Radix AE. HIV seropositivity and viral non-suppression in transgender, non-binary, and gender-diverse people in primary care receiving gender-affirming hormone therapy in the USA between 2013 and 2019 (LEGACY): An observational, longitudinal, cohort study. <em>Lancet HIV</em>. 2025;12(4):e283-e292. <span class="ids"><a href="https://doi.org/10.1016/S2352-3018(25)00004-9">doi:10.1016/S2352-3018(25)00004-9</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/40158515/">40158515</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12355900/">PMC12355900</a>.</span></li>
+<li>Babbs G, Mulcahy A, Ellison J, Varma H, <strong>Pletta DR</strong>, Yee K, Hughes LD, Shireman TI, Hughto JMW. Chronic conditions among transgender Medicare beneficiaries: Variation by race, ethnicity, and Medicaid dual-enrollment. <em>Disability and Health Journal</em>. 2025;18(2):101764. <span class="ids"><a href="https://doi.org/10.1016/j.dhjo.2024.101764">doi:10.1016/j.dhjo.2024.101764</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/39701841/">39701841</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11885010/">PMC11885010</a>.</span></li>
+<li>Reisner SL, <strong>Pletta DR</strong>, Keuroghlian AS, Mayer KH, Deutsch MB, Potter J, Hughto JMW, Harris A, Radix A. Gender-affirming hormone therapy and depressive symptoms among transgender adults. <em>JAMA Network Open</em>. 2025;8(3):e250955. <span class="ids"><a href="https://doi.org/10.1001/jamanetworkopen.2025.0955">doi:10.1001/jamanetworkopen.2025.0955</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/40094660/">40094660</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11915065/">PMC11915065</a>.</span></li>
+<li>Hughto JMW, Varma H, Yee K, Babbs G, Hughes LD, <strong>Pletta DR</strong>, Meyers DJ, Shireman TI. Characterizing disparities in the HIV care continuum among U.S. transgender and cisgender Medicare beneficiaries, 2008-2017. <em>AIDS Care</em>. 2025;37(3):423-434. <span class="ids"><a href="https://doi.org/10.1080/09540121.2025.2453831">doi:10.1080/09540121.2025.2453831</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/39886758/">39886758</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11922666/">PMC11922666</a>.</span></li>
+<li>Hughto JMW, Kelly PJA, Vento SA, <strong>Pletta DR</strong>, Noh M, Silcox J, Rich JD, Green TC. Characterizing and responding to stimulant overdoses: Findings from a mixed methods study of people who use cocaine and other stimulants in New England. <em>Drug and Alcohol Dependence</em>. 2024;266:112501. <span class="ids"><a href="https://doi.org/10.1016/j.drugalcdep.2024.112501">doi:10.1016/j.drugalcdep.2024.112501</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/39608288/">39608288</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11685032/">PMC11685032</a>.</span></li>
+<li><strong>Pletta DR</strong>, Mayer KH, Chen JT, Hughto JMW, Keuroghlian AS, Radix AE, Reisner SL. Gender-affirming hormone therapy is associated with increased odds of screening for sexually transmitted infections in a clinical cohort of transgender and nonbinary adults. <em>Transgender Health</em>. 2024;9(6):508-515. <span class="ids"><a href="https://doi.org/10.1089/trgh.2023.0159">doi:10.1089/trgh.2023.0159</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/39735371/">39735371</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11669630/">PMC11669630</a>.</span></li>
+<li>Hughto JMW, Rich J, Kelly PJA, Vento S, Silcox J, Noh M, <strong>Pletta DR</strong>, Erowid E, Erowid F, Green T. Preventing overdoses involving stimulants: The POINTS study protocol. <em>BMC Public Health</em>. 2024;24(1):2325. <span class="ids"><a href="https://doi.org/10.1186/s12889-024-19779-x">doi:10.1186/s12889-024-19779-x</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/39192313/">39192313</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11348517/">PMC11348517</a>.</span></li>
+<li><strong>Pletta DR</strong>, Austin SB, Chen JT, Radix AE, Keuroghlian AS, Hughto JMW, Reisner SL. Lower levels of social support are associated with risk for future suicide attempts in a clinical sample of transgender and gender diverse adults. <em>Social Psychiatry and Psychiatric Epidemiology</em>. 2024;59(8):1401-1412. <span class="ids"><a href="https://doi.org/10.1007/s00127-023-02606-w">doi:10.1007/s00127-023-02606-w</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/38182830/">38182830</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11869392/">PMC11869392</a>.</span></li>
+<li>Reisner SL, Deutsch MB, Mayer KH, <strong>Pletta DR</strong>, Campbell J, Potter J, Keuroghlian AS, Hughto JMW, Asquith A, Pardee DJ, Harris A, Quint M, Grasso C, Gonzalez A, Radix A. Decreased anogenital gonorrhea and chlamydia in transgender and gender diverse primary care patients receiving gender-affirming care. <em>Journal of General Internal Medicine</em>. 2024;39(7):1164-1172. <span class="ids"><a href="https://doi.org/10.1007/s11606-023-08531-7">doi:10.1007/s11606-023-08531-7</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/37989820/">37989820</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11116345/">PMC11116345</a>.</span></li>
+<li>Hammack PL, <strong>Pletta DR</strong>, Hughes SD, Atwood JM, Cohen EM, Clark RC. Community support for sexual and gender diversity, minority stress, and mental health: A mixed-methods study of adolescents with minoritized sexual and gender identities. <em>Psychology of Sexual Orientation and Gender Diversity</em>. 2024;11(2):250-268. <span class="ids"><a href="https://doi.org/10.1037/sgd0000591">doi:10.1037/sgd0000591</a>.</span></li>
+<li>Reisner SL, <strong>Pletta DR</strong>, Harris A, Campbell J, Asquith A, Pardee DJ, Deutsch MB, Aguayo-Romero R, Quint M, Keuroghlian A, Radix A. Exploring gender euphoria in a sample of transgender and gender diverse patients at two U.S. urban community health centers. <em>Psychiatry Research</em>. 2023;329:115541. <span class="ids"><a href="https://doi.org/10.1016/j.psychres.2023.115541">doi:10.1016/j.psychres.2023.115541</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/37857133/">37857133</a>.</span></li>
+<li>Reisner SL, <strong>Pletta DR</strong>, Pardee DJ, Deutsch MB, Peitzmeier SM, Hughto JMW, Quint M, Potter J. Digital-assisted self-interview of HIV or sexually transmitted infection risk behaviors in transmasculine adults: Development and field testing of the transmasculine sexual health assessment. <em>JMIR Public Health and Surveillance</em>. 2023;9:e40503. <span class="ids"><a href="https://doi.org/10.2196/40503">doi:10.2196/40503</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/36930204/">36930204</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10131935/">PMC10131935</a>.</span></li>
+<li><strong>Pletta DR</strong>, Hughto JMW, Peitzmeier S, Deutsch MB, Pardee D, Potter J, Reisner SL. Factors associated with transmasculine adults recently engaging in sexual behavior with partners of unknown STI and HIV status. <em>AIDS and Behavior</em>. 2022;26(9):3139-3145. <span class="ids"><a href="https://doi.org/10.1007/s10461-022-03651-3">doi:10.1007/s10461-022-03651-3</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/35362909/">35362909</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10266479/">PMC10266479</a>.</span></li>
+<li><strong>Pletta DR</strong>, Kant JD, Ehrensaft D, MacNish M, Cahill S, Katz-Wise SL. The 2016 United States presidential election’s impact on families with transgender adolescents in New England. <em>Journal of Family Psychology</em>. 2022;36(1):23-34. <span class="ids"><a href="https://doi.org/10.1037/fam0000873">doi:10.1037/fam0000873</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/34043404/">34043404</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8626525/">PMC8626525</a>.</span></li>
+<li>Garcia Saiz E, Sarda V, <strong>Pletta DR</strong>, Reisner SL, Katz-Wise SL. Family functioning as a protective factor for sexual risk behaviors among gender minority adolescents. <em>Archives of Sexual Behavior</em>. 2021;50(7):3023-3033. <span class="ids"><a href="https://doi.org/10.1007/s10508-021-02079-5">doi:10.1007/s10508-021-02079-5</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/34586546/">34586546</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9116415/">PMC9116415</a>.</span></li>
+<li>Reisner SL, Deutsch MB, Mayer KH, Grasso C, Potter J, Gonzales A, Keuroghlian A, Hughto JM, Campbell J, Asquith A, Pardee DJ, <strong>Pletta DR</strong>, Radix A. Longitudinal cohort study of gender affirmation and HIV-related health in transgender and gender diverse adults: The LEGACY Project protocol. <em>JMIR Research Protocols</em>. 2021;10(3):e24198. <span class="ids"><a href="https://doi.org/10.2196/24198">doi:10.2196/24198</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/33646126/">33646126</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7961399/">PMC7961399</a>.</span></li>
+<li>Hughto JMW, <strong>Pletta DR</strong>, Gordon L, Cahill S, Mimiaga M, Reisner SL. Negative transgender-related media messages are associated with adverse mental health outcomes in a multistate study of transgender adults. <em>LGBT Health</em>. 2021;8(1):32-41. <span class="ids"><a href="https://doi.org/10.1089/lgbt.2020.0279">doi:10.1089/lgbt.2020.0279</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/33170060/">33170060</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7826438/">PMC7826438</a>.</span></li>
+<li>Reisner SL, <strong>Pletta DR</strong>, Potter J, Deutsch MB. Initial psychometric evaluation of a brief sexual functioning screening tool for transmasculine adults: Transmasculine Sexual Functioning Index. <em>Sexual Medicine</em>. 2020;8(3):350-360. <span class="ids"><a href="https://doi.org/10.1016/j.esxm.2020.05.006">doi:10.1016/j.esxm.2020.05.006</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/32703760/">32703760</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7471062/">PMC7471062</a>.</span></li>
+<li><strong>Pletta DR</strong>, Hughto JMW, Peitzmeier S, Deutsch MB, Pardee D, Potter J, Reisner SL. Individual- and partnership-level correlates of protective barrier use in a sample of transmasculine adults with diverse sexual partnerships. <em>AIDS Patient Care and STDs</em>. 2020;34(5):237-246. <span class="ids"><a href="https://doi.org/10.1089/apc.2019.0296">doi:10.1089/apc.2019.0296</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/32396475/">32396475</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7232705/">PMC7232705</a>.</span></li>
+<li>Hammack PL, Frost DM, Meyer IH, <strong>Pletta DR</strong>. Gay men’s health and identity: Social change and the life course. <em>Archives of Sexual Behavior</em>. 2018;47(1):59-74. <span class="ids"><a href="https://doi.org/10.1007/s10508-017-0990-9">doi:10.1007/s10508-017-0990-9</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/28585157/">28585157</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5903851/">PMC5903851</a>.</span></li>
+<li>Dodge B, Herbenick D, Friedman MR, Schick V, Fu TC, Bostwick W, Bartelt E, Munoz-Laboy M, <strong>Pletta DR</strong>, Reece M, Sandfort TG. Attitudes toward bisexual men and women among a nationally representative probability sample of adults in the United States. <em>PLoS One</em>. 2016;11(10):e0164430. <span class="ids"><a href="https://doi.org/10.1371/journal.pone.0164430">doi:10.1371/journal.pone.0164430</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/27783644/">27783644</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5082634/">PMC5082634</a>.</span></li>
+</ol>
+<h3>Peer-Reviewed Journal Articles — Under Review</h3>
+<ol class="refs">
+<li><strong>Pletta DR</strong>, Reisner SL, Feng C, Morrow C, Clark MC, Omar B, Keuroghlian AS, Xu R. Symptom onset patterns, diagnostic delay, and lifetime adverse psychiatric events among young adults with bipolar disorder in the United States: a cross-sectional study. <em>BMJ Connections Mental Health</em>, R&amp;R. </li>
+<li>Reisner SL, <strong>Pletta DR</strong>, Radix A, Keuroghlian AS, Mayer KH, Xu R. Psychiatric epidemiology of transgender young adult primary care patients at two U.S. urban community health centers: A cross-sectional study. <em>BMC Psychiatry</em>. </li>
+</ol>
+<h3>Manuscripts in Preparation</h3>
+<ol class="refs">
+<li><strong>Pletta DR</strong>, Quint M, Mayer KH, Potter J, Radix A, Hughto JMW, Bhasin S, Keuroghlian AS, Reisner SL. Transgender and gender diverse adult primary care patients screening positive for suicide risk in a New England community health center. (Target journal: <em>American Journal of Preventive Medicine</em>) </li>
+<li>Rios IE, <strong>Pletta DR</strong>, Perez-Brumer A, Silva-Santisteban A, Apedaile D, Heurta L, Aguayo-Romero R, Reisner SL. Suicidality and severe psychological distress among young transgender women in Peru. (Target journal: <em>Lancet Child &amp; Adolescent Health</em>) </li>
+<li>Reisner SL, <strong>Pletta DR</strong>, McFarlane M, et al. Everyday discrimination and posttraumatic stress disorder among transgender, nonbinary, and gender diverse young adults in primary care. (Target journal: <em>Social Psychiatry and Psychiatric Epidemiology</em>) </li>
+<li>Reisner SL, <strong>Pletta DR</strong>, et al. Syndemic latent classes and sexual-health outcomes among transfeminine adults in the USA: A cross-sectional analysis of the ENCORE cohort. (Target journal: <em>Lancet HIV</em>) </li>
+<li>Reisner SL, <strong>Pletta DR</strong>, et al. Cumulative adversity and recent non-suicidal self-injury in young adults with a history of depression. (Target journal: <em>Psychiatry Research</em>) </li>
+</ol>
+</section>
+<section id="presentations"><h2>Scientific Presentations</h2>
+<h3>Oral Presentations</h3>
+<ol class="refs">
+<li>Reisner SL, <strong>Pletta DR</strong>, Wirtz AL, Radix AE, Poteat T, Borquez A, Linton S, Beyrer C, Althoff KN, Miller M, Brown C, Lint A, Pontes C, Stevenson M, Humes E, Schneider J, Rodriguez A, Cooney EE, ENCORE Study Group. Syndemic risk-resilience profiles and HIV vulnerability among transgender women and transfeminine adults in the US: Findings from ENCORE. <em>World Professional Association for Transgender Health.</em> Mexico City, Mexico. 2026.</li>
+<li>Dusic E, Madden D, Rios IE, Hwang BJ, Rabinowitz S, Ramos M, <strong>Pletta DR</strong>, Aguayo-Romero R, Lunn MR, Baker K, Horowitz CR, Reisner SL. Transgender, nonbinary, and gender diverse adults’ perceptions of and willingness to participate in transgender identity genomics research. <em>7th Ethical, Legal, and Social Implications (ELSI) Congress, National Human Genome Research Institute (NHGRI).</em> Chapel Hill, NC, USA. 2026.</li>
+<li>Dusic E, Starks H, Madden D, Rios IE, Restar A, <strong>Pletta DR</strong>, Ramos M, Baker K, Horowitz C, Reisner SL. Vilifying or validating? The political impact of biological determinism. <em>UCSF National Transgender Health Summit.</em> San Francisco, CA, USA. 2025.</li>
+<li>Dow PM, George M, Hughes L, <strong>Pletta DR</strong>, Shireman TI, Donohue JM, Hughto JMW. Association of state Medicaid prescription cap policies with adherence trajectories of buprenorphine treatment for opioid use disorder. <em>Addiction Health Services Research Conference.</em> San Francisco, CA, USA. 2024.</li>
+<li>Kelly P, Green T, Rich J, Vento S, Noh M, <strong>Pletta DR</strong>, Silcox J, Davis M, Toffey A, Silva V, Tobin S, Hughto JMW. Self-reported pathways through which illicitly manufactured fentanyl enters the stimulant supply: Insights from people who use and distribute drugs. <em>American Public Health Association Annual Meeting.</em> Minneapolis, MN, USA. 2024.</li>
+<li>Reisner SL, <strong>Pletta DR</strong>, Quint M, Deutsch MB, Mayer KH, Potter J, O’Brien-Coon D, Bhasin S, Keuroghlian A, Hughto JMW, Radix A. Gender-affirming surgical history, satisfaction, and unmet needs in transgender and gender diverse community health center patients: Findings from the LEGACY Project. <em>UCSF National Transgender Health Summit.</em> San Francisco, CA, USA. 2023.</li>
+<li>Reisner SL, Deutsch MB, Mayer KH, Grasso C, Campbell J, <strong>Pletta DR</strong>, Potter J, Gonzales A, Keuroghlian AS, Hughto JMW, Asquith A, Pardee DJ, Harris A, Quint M, Radix A. Improved clinical outcomes in transgender and gender diverse primary care patients receiving gender-affirming care: Findings from the LEGACY Project. <em>World Professional Association for Transgender Health.</em> Montreal, Quebec, Canada. 2022.</li>
+<li>Kant JD, <strong>Pletta DR</strong>, MacNish M, Katz-Wise SL. Finding safety: Implications for clinical work with transgender and non-binary youth and their families from a qualitative study of the 2016-2018 U.S. political climate. <em>Transgender Professional Association for Transgender Health.</em> Virtual Meeting. 2021.</li>
+<li>Reisner SL, <strong>Pletta DR</strong>, Campbell J, Mayer KH, Potter J, Gonzalez A, Hughto JMW, Asquith A, Pardee D, Bhasin S, Keuroghlian A. Methods to ascertain suicide attempts in adult transgender and nonbinary patients: Implications for suicide prevention interventions in community health centers. <em>American Public Health Association.</em> Virtual Meeting. 2020.</li>
+<li>Reisner SL, <strong>Pletta DR</strong>, Campbell J, Mayer KH, Potter J, Gonzalez A, Hughto JMW, Asquith A, Pardee D, Radix A, Deutsch M, Keuroghlian A. Suicide attempts among transgender and nonbinary adult primary care patients in a community health center cohort. <em>American Public Health Association.</em> Virtual Meeting. 2020.</li>
+<li>Hughto JMW, Cahill S, McMahon J, Santostefano C, <strong>Pletta DR</strong>, Mimiaga MJ, Reisner SL. Negative transgender-related media messages are associated with adverse mental health outcomes in an online sample of transgender adults. <em>American Public Health Association.</em> Philadelphia, PA, USA. 2019.</li>
+<li><strong>Pletta DR</strong>, Reisner SL. Individual- and partnership-level correlates of protective barrier use in a sample of transgender masculine individuals. <em>National LGBTQ Health Conference.</em> Atlanta, GA, USA. 2019.</li>
+</ol>
+<h3>Round Tables &amp; Symposia</h3>
+<ol class="refs">
+<li>Asquith A, <strong>Pletta DR</strong>, Mayer KH, Campbell J, Potter J, Gonzalez A, Hughto JMW, Pardee DJ, Keuroghlian A, Radix A, Deutsch M, Reisner SL. Factors associated with pre-exposure prophylaxis (PrEP) prescriptions among transgender and non-binary patients in primary care at an urban community health center. <em>American Public Health Association.</em> Virtual Meeting. 2020.</li>
+<li>Hughto JMW, Reisner SL, Cahill S, Santostefano C, McMahon J, <strong>Pletta DR</strong>, Mimiaga MJ. Understanding facilitators and barriers to pre-exposure prophylaxis (PrEP) use among PrEP-naïve and PrEP-experienced transgender adults. <em>American Public Health Association.</em> Philadelphia, PA, USA. 2019.</li>
+<li>Hammack PL, <strong>Pletta DR</strong>, Schindler A. LGBTQ youth and community climate toward sexual and gender identity development in California. <em>American Psychological Association.</em> Denver, CO, USA. 2016.</li>
+</ol>
+<h3>Poster Presentations</h3>
+<ol class="refs">
+<li>Balkan E, Babbs G, Meyers DJ, Kelly P, Yee K, <strong>Pletta DR</strong>, Shireman TI, Alpert A, Hughto JMW. Prevalence of gender-affirming surgery for transgender and gender diverse Medicare beneficiaries from 2016-2020. <em>AcademyHealth.</em> Baltimore, MD, USA. 2024.</li>
+<li>Quint M, <strong>Pletta DR</strong>, Radix A, Deutsch MB, Campbell J, Harris A, Mayer KH, Potter J, Asquith A, Pardee DJ, Esquivel B, Guerra A, Reisner SL. Binding and tucking practices in a cohort of transgender and gender diverse adult community health center patients: Findings from the LEGACY Project. <em>World Professional Association for Transgender Health.</em> Montreal, Quebec, Canada. 2022.</li>
+<li><strong>Pletta DR</strong>, Kant JD, Ehrensaft D, MacNish M, Cahill S, Katz-Wise SL. How the 2016 United States presidential election affected families with transgender and nonbinary adolescents in New England: A qualitative study. <em>American Public Health Association.</em> Virtual Meeting. 2020.</li>
+<li>Kant JD, <strong>Pletta DR</strong>, Katz-Wise SL. Integrating family systems theory into thematic analysis of interviews with families of transgender youth. <em>LGBT Health Week, Boston Children’s Hospital / Harvard Medical School.</em> Boston, MA, USA. 2020.</li>
+<li><strong>Pletta DR</strong>. Sexual orientation disparities in human papillomavirus (HPV) vaccination. <em>Sexual Orientation and Gender Identity and Expression (SOGIE) Working Group, Boston Children’s Hospital &amp; Harvard T.H. Chan School of Public Health.</em> Boston, MA, USA. 2019.</li>
+<li><strong>Pletta DR</strong>, Katz-Wise SL, Post J, Thomson K. Creating a safe space: Evaluating the effectiveness of Safe Zone trainings in improving gender and sexuality awareness at Boston Children’s Hospital. <em>Health Professionals Education Poster Session, Boston Children’s Hospital.</em> Boston, MA, USA. 2019.</li>
+<li><strong>Pletta DR</strong>, Katz-Wise SL, Post J, Thomson K. Creating a safe space: Evaluating the effectiveness of Safe Zone trainings in improving gender and sexuality awareness at Boston Children’s Hospital. <em>LGBTQ Health Awareness Week, Boston Children’s Hospital.</em> Boston, MA, USA. 2019.</li>
+</ol>
+</section>
+<section id="teaching"><h2>Teaching Experience</h2>
+<h3>Courses &amp; Instructional Appointments</h3>
+<div class="entry">
+<div class="row"><span class="org">Harvard T.H. Chan School of Public Health</span><span class="date">Boston, MA</span></div>
+<div class="row"><span class="role">Graduate Teaching Fellow, HIV Interventions: Rationale, Design, and Evaluation</span><span class="date">2023</span></div>
+<div class="sub">Graduate lecture (12 students)</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">Harvard T.H. Chan School of Public Health</span><span class="date">Boston, MA</span></div>
+<div class="row"><span class="role">Graduate Teaching Fellow, Principles of Social and Behavioral Research</span><span class="date">2022</span></div>
+<div class="sub">Graduate lecture (50 students) and lab (~15 students)</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">Harvard T.H. Chan School of Public Health</span><span class="date">Boston, MA</span></div>
+<div class="row"><span class="role">Graduate Teaching Assistant, Reproductive Health, Rights, and Justice</span><span class="date">2021</span></div>
+<div class="sub">Graduate lecture (17 students)</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">Indiana University School of Public Health</span><span class="date">Bloomington, IN</span></div>
+<div class="row"><span class="role">Graduate Teaching Fellow, Introduction to Public Health</span><span class="date">2016</span></div>
+<div class="sub">Undergraduate lecture (~60 students)</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">University of California, Santa Cruz</span><span class="date">Santa Cruz, CA</span></div>
+<div class="row"><span class="role">Undergraduate Co-Instructor, Social Justice and Community Workshop</span><span class="date">2013</span></div>
+<div class="sub">Undergraduate workshop (~25 students)</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">University of California, Santa Cruz</span><span class="date">Santa Cruz, CA</span></div>
+<div class="row"><span class="role">Undergraduate Instructional Assistant, Introduction to Psychology</span><span class="date">2013</span></div>
+<div class="sub">Undergraduate lecture (~300 students); co-taught section (~25 students)</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">University of California, Santa Cruz</span><span class="date">Santa Cruz, CA</span></div>
+<div class="row"><span class="role">Undergraduate Instructional Assistant, College Ten Core: Social Justice and Community</span><span class="date">2012</span></div>
+<div class="sub">Undergraduate lecture (~25 students)</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">University of California, Santa Cruz</span><span class="date">Santa Cruz, CA</span></div>
+<div class="row"><span class="role">Writing Tutor, Writing Program</span><span class="date">2012-2013</span></div>
+<div class="sub">Individual and group tutoring (~25 students); training in pedagogical grammar, English composition, and English as a Second Language (ESL) instruction</div>
+</div>
+<h3>Invited Presentations &amp; Lectures</h3>
+<ol class="refs">
+<li><strong>Pletta DR</strong>. Assessing community climate for sexual and gender minority youth: A mixed-methods approach. Guest lecture, graduate course “Principles of Social and Behavioral Research.” <em>Harvard T.H. Chan School of Public Health</em>, Boston, MA. 2022.</li>
+<li><strong>Pletta DR</strong>. LGBTQ+ adoption panel. Guest lecture, graduate course “Reproductive Health, Rights, and Justice.” <em>Harvard T.H. Chan School of Public Health</em>, Boston, MA. 2021.</li>
+<li><strong>Pletta DR</strong>, Kant JD, Godwin EG, Katz-Wise SL. Politics at the dinner table: Impact of the 2016 presidential election on families with transgender and nonbinary teens in New England. <em>Sexual Orientation and Gender Identity and Expression (SOGIE) Working Group, Boston Children’s Hospital / Harvard Medical School / Harvard T.H. Chan School of Public Health</em>, Boston, MA. 2020.</li>
+<li><strong>Pletta DR</strong>. LGBTQ+ health across the life course. Recorded guest lecture, graduate epidemiology course. <em>College of Natural and Health Sciences, University of Northern Colorado</em>, Greeley, CO. 2020.</li>
+<li><strong>Pletta DR</strong>. Emerging topics in epidemiology: LGBTQ+ health across the life course. Invited guest lecture, graduate epidemiology course. <em>College of Natural and Health Sciences, University of Northern Colorado</em>, Greeley, CO. 2019.</li>
+<li><strong>Pletta DR</strong>. Conceptualizations of transitioning among gender nonbinary and gender fluid young adults. <em>Sexual Orientation and Gender Identity and Expression (SOGIE) Working Group, Boston Children’s Hospital / Harvard Medical School / Harvard T.H. Chan School of Public Health</em>, Boston, MA. 2018.</li>
+</ol>
+</section>
+<section id="service"><h2>Local, National, and International Service</h2>
+<div class="entry">
+<div class="row"><span class="org">Member</span><span class="date">Ann Arbor, MI</span></div>
+<div class="row"><span class="role">Organizational Culture and Belonging Committee</span><span class="date">2026</span></div>
+<div class="sub">Department of Epidemiology, University of Michigan School of Public Health</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">Judge</span><span class="date">International</span></div>
+<div class="row"><span class="role">Consortium for Mathematics and Its Applications (COMAP)</span><span class="date">2026</span></div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">California Institute of Integral Studies</span><span class="date">San Francisco, CA</span></div>
+<div class="row"><span class="role">Lead Curriculum Consultant, Public Health Analysis Track</span><span class="date">2024-2025</span></div>
+<div class="sub">Master of Science in Critical Sexuality Studies</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">Invited Member</span><span class="date">Ann Arbor, MI</span></div>
+<div class="row"><span class="role">Peer Review Committee for the Harburg Award</span><span class="date">2025</span></div>
+<div class="sub">Center for Social Epidemiology and Population Health, University of Michigan School of Public Health</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">Invited Member</span><span class="date">Boston, MA</span></div>
+<div class="row"><span class="role">Sexual Orientation and Gender Identity and Expression (SOGIE) Working Group</span><span class="date">2017-2024</span></div>
+<div class="sub">Boston Children’s Hospital / Harvard Medical School / Harvard T.H. Chan School of Public Health</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">Abstract Reviewer</span><span class="date">National</span></div>
+<div class="row"><span class="role">LGBT Caucus of Public Health Professionals</span><span class="date">2019</span></div>
+<div class="sub">American Public Health Association (APHA)</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">Administrator, Terminology Chapter</span><span class="date">International</span></div>
+<div class="row"><span class="role">Standards of Care, Version 8</span><span class="date">2019</span></div>
+<div class="sub">World Professional Association for Transgender Health (WPATH)</div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">Member</span><span class="date">Boston, MA</span></div>
+<div class="row"><span class="role">LGBT Rainbow Consortium for Sexual and Gender Diversity</span><span class="date">2018</span></div>
+<div class="sub">Boston Children’s Hospital / Harvard Medical School</div>
+</div>
+</section>
+<section id="editorial"><h2>Editorial Activities</h2>
+<h3>Ad Hoc Peer Reviewer</h3>
+<ul class="journals">
+<li>Addiction Science and Clinical Practice</li>
+<li>Advances in Patient-Reported Outcomes</li>
+<li>AIDS and Behavior</li>
+<li>AIDS Care</li>
+<li>American Journal of Epidemiology</li>
+<li>Digital Health</li>
+<li>Journal of Homosexuality</li>
+<li>LGBT Health</li>
+<li>PLoS One</li>
+<li>Psychology of Sexual Orientation and Gender Diversity</li>
+<li>Public Health Reports</li>
+<li>Sexuality Research and Social Policy</li>
+<li>Social Science &amp; Medicine</li>
+<li>Stigma and Health</li>
+<li>Transgender Health</li>
+</ul>
+</section>
+<section id="societies"><h2>Professional Societies &amp; Organizations</h2>
+<div class="entry">
+<div class="row"><span class="role">Member, American Statistical Association (ASA)</span><span class="date">2025-Present</span></div>
+</div>
+<div class="entry">
+<div class="row"><span class="role">Member, Society for Epidemiologic Research (SER)</span><span class="date">2025-Present</span></div>
+</div>
+<div class="entry">
+<div class="row"><span class="role">Member, World Professional Association for Transgender Health (WPATH)</span><span class="date">2018-Present</span></div>
+</div>
+<div class="entry">
+<div class="row"><span class="role">Member, American Public Health Association (APHA)</span><span class="date">2018-Present</span></div>
+</div>
+<div class="entry">
+<div class="row"><span class="role">Member, International Epidemiological Association (IEA)</span><span class="date">2018</span></div>
+</div>
+<div class="entry">
+<div class="row"><span class="role">Member, Association for Gender Affirming Professionals (AGAP)</span><span class="date">2017-2019</span></div>
+</div>
+<div class="entry">
+<div class="row"><span class="role">Member, International Society for Political Psychology (ISPP)</span><span class="date">2016-2017</span></div>
+</div>
+<div class="entry">
+<div class="row"><span class="role">Invited Member, Golden Key International Honour Society</span><span class="date">2014</span></div>
+</div>
+<div class="entry">
+<div class="row"><span class="role">Invited Member, Psi Chi International Honor Society in Psychology</span><span class="date">2013</span></div>
+</div>
+<div class="entry">
+<div class="row"><span class="role">Invited Member, National Society of Collegiate Scholars</span><span class="date">2012</span></div>
+</div>
+</section>
+<section id="trainings"><h2>Scientific Trainings</h2>
+<div class="entry">
+<div class="row"><span class="org">Data and AI Intensive Research with Rigor and Reproducibility (DAIR3) Bootcamp</span><span class="date">Ann Arbor, MI</span></div>
+<div class="row"><span class="role">Michigan Institute for Data &amp; AI in Society, University of Michigan</span><span class="date">2026</span></div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">Transition to First R01 Workshop</span><span class="date">Ann Arbor, MI</span></div>
+<div class="row"><span class="role">Institute for Healthcare Policy &amp; Innovation (IHPI), University of Michigan</span><span class="date">2026</span></div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">K Writing Workshop</span><span class="date">Ann Arbor, MI</span></div>
+<div class="row"><span class="role">Institute for Healthcare Policy &amp; Innovation (IHPI), University of Michigan</span><span class="date">2026</span></div>
+</div>
+<div class="entry">
+<div class="row"><span class="org">NIH Pre-Conference Workshop</span><span class="date">Atlanta, GA</span></div>
+<div class="row"><span class="role">National LGBTQ Health Conference, Emory University</span><span class="date">2019</span></div>
+</div>
+</section>
+<footer>
+  <p>David R. Pletta, PhD, MPH &nbsp;·&nbsp; Last updated October 14, 2026<br>
+  <a href="CV_DPletta_10-14-2026.pdf">PDF</a> &nbsp;·&nbsp; <a href="CV_DPletta_10-14-2026.docx">DOCX</a> &nbsp;·&nbsp;
+  <a href="https://github.com/dpletta/cv">Source</a></p>
+</footer>
+</div></main>
+
+</body>
+</html>
