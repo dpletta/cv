@@ -38,10 +38,11 @@ generated from `src/cv_data.py`, which mirrors it minus the omitted items.
    uv run --with python-docx python src/check_sync.py CV_DPletta_<date>.docx
    ```
 
-   `make_public_copy.py` verifies its output and refuses to write a public
-   copy if a phone number or the omitted section is still in any part of the
-   file, if the section heading isn't found, or if the master has tracked
-   changes or comments (accept or reject them in Word first).
+   `make_public_copy.py` reads its output back the way Word does (text, alt
+   text, links and metadata in every part) and refuses to write a public copy
+   if any phone number or text from the omitted section is still there, if
+   the section heading isn't found, or if the master has tracked changes,
+   comments or embedded objects (resolve or remove them in Word first).
    `check_sync.py` lists any text that appears in the Word file but not on the
    web page, or vice versa, and exits non-zero if the two have drifted.
    (`soffice` lives at `/Applications/LibreOffice.app/Contents/MacOS/soffice`.)
